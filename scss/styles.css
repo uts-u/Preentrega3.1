@@ -33,13 +33,11 @@ footer {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -89,13 +87,11 @@ footer {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -140,13 +136,11 @@ footer {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -194,13 +188,11 @@ footer {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -292,13 +284,11 @@ footer {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -416,13 +406,11 @@ p {
   flex-direction: row;
   justify-content: right;
 }
-
 #Navegador a {
   text-decoration-line: none;
   text-decoration: none;
   color: grey;
 }
-
 #Navegador a:hover {
   font-weight: bold;
 }
@@ -567,6 +555,4 @@ p {
     margin-top: 0px;
     background-color: black;
   }
-} 
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

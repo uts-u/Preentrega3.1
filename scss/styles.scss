@@ -10,7 +10,7 @@ body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; 
 header {top: 0; z-index: 1;}
 footer {background-color: $color-Secundario; display: flex; justify-content: center;}
 img {max-width: 100%;}
-h1 {font-weight: 700; font-size: 70px; color: $color-Secundario; text-align: left; margin-bottom:0px ; margin-top: 0px; padding-left: 20px; padding-bottom: 19px; background-color: $color-Principal;}
+h1 {font-weight: 700; font-size: 70px; color: $color-Secundario; text-align: left; margin-bottom:0px ; margin-top: 0px; padding-left: 20px; padding-bottom: 20px; background-color: $color-Principal;}
 h2 {font-weight: 700; font-size: 55px; color: $color-Secundario; text-align: right; margin-bottom:20px ; margin-top: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
 h3 {font-weight: 700; font-size: 40px; color: $color-Secundario; text-align: center; margin-bottom:0px ; margin-top: 0px; background-color: $color-Principal}
 p {font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
@@ -18,7 +18,7 @@ p {font-size: 30px; color: $color-Terciario; text-align: center; background-colo
      a {text-decoration-line: none; text-decoration: none; color: $color-Terciario;
      &:hover {font-weight: bold;}}}
 .foto {background-color: $color-Principal; display: flex; justify-content: center;}
-.bioText {text-align: left; padding-bottom: 199px;}
+.bioText {text-align: left; padding-bottom: 200px;}
 .i3 {width: 50px; height: 50px;}
 .i4 {width: 50px; height: 50px;}
 .link {block-size:  800px; ; font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
