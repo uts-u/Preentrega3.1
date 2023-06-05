@@ -1,0 +1,23 @@
+* {margin: 0;padding: 0}
+body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; margin: 0px; display: flex; flex-direction: column; flex-wrap: wrap;}
+header {top: 0; z-index: 1;}
+footer {background-color: $color-Secundario; display: flex; justify-content: center;}
+#Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
+    a {text-decoration-line: none; text-decoration: none; color: $color-Terciario;
+    &:hover {font-weight: bold;}}}
+.fechas {block-size: 700px; display: grid; grid-template-columns: 0.8fr 0.8fr 1.6fr; grid-template-rows: 0.3fr 0.3fr 0.2fr 0.2fr 0.2fr 3.5fr; grid-auto-columns: 1fr; gap: 20px 20px; grid-auto-flow: row; grid-template-areas:
+      "Mes Mes Fotovivo"
+      "Fecha Lugar Fotovivo"
+      "f1 l1 Fotovivo"
+      "f2 l2 Fotovivo"
+      "f3 l3 Fotovivo"}
+  .Mes { grid-area: Mes; }
+  .Fecha { grid-area: Fecha;}
+  .Lugar { grid-area: Lugar;}
+  .f1 { grid-area: f1; }
+  .f2 { grid-area: f2; }
+  .f3 { grid-area: f3; }
+  .l1 { grid-area: l1; }
+  .l2 { grid-area: l2; }
+  .l3 { grid-area: l3; }
+  .Fotovivo { grid-area: Fotovivo; max-width: 80%;}

@@ -1,0 +1,15 @@
+* {margin: 0;padding: 0}
+body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; margin: 0px; display: flex; flex-direction: column; flex-wrap: wrap;}
+header {top: 0; z-index: 1;}
+footer {background-color: $color-Secundario; display: flex; justify-content: center;}
+#Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
+    a {text-decoration-line: none; text-decoration: none; color: $color-Terciario;
+    &:hover {font-weight: bold;}}}
+.i3 {width: 50px; height: 50px;}
+.i4 {width: 50px; height: 50px;}
+.link {block-size:  800px; ; font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
+.publicacionesDiv {  display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; grid-auto-columns: 1fr; gap: 0px 0px; grid-auto-flow: row; grid-template-areas:
+    "Publicacion1 Publicacion2"
+    "Publicacion1 Publicacion2";}
+.Publicacion2 { grid-area: Publicacion2;}
+.Publicacion1 { grid-area: Publicacion1;}

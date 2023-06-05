@@ -1,0 +1,8 @@
+* {margin: 0;padding: 0}
+body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; margin: 0px; display: flex; flex-direction: column; flex-wrap: wrap;}
+header {top: 0; z-index: 1;}
+footer {background-color: $color-Secundario; display: flex; justify-content: center;}
+#Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
+    a {text-decoration-line: none; text-decoration: none; color: $color-Terciario;
+    &:hover {font-weight: bold;}}}
+.bioText {text-align: left; padding-bottom: 199px;}
