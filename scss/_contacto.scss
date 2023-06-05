@@ -5,3 +5,4 @@ footer {background-color: $color-Secundario; display: flex; justify-content: cen
 #Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
     a {text-decoration-line: none; text-decoration: none; color: $color-Terciario;
     &:hover {font-weight: bold;}}}
+.link {block-size:  800px; ; font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
