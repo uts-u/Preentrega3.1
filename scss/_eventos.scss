@@ -1,4 +1,4 @@
-.fechas {block-size: 800px; display: grid; grid-template-columns: 0.8fr 0.8fr 1.6fr; grid-template-rows: 0.3fr 0.3fr 0.2fr 0.2fr 0.2fr 3.5fr; grid-auto-columns: 1fr; gap: 20px 20px; grid-auto-flow: row; grid-template-areas:
+.fechas {block-size: 635px; display: grid; grid-template-columns: 0.8fr 0.8fr 1.6fr; grid-template-rows: 0.3fr 0.3fr 0.2fr 0.2fr 0.2fr 3.5fr; grid-auto-columns: 1fr; gap: 20px 20px; grid-auto-flow: row; grid-template-areas:
       "Mes Mes Fotovivo"
       "Fecha Lugar Fotovivo"
       "f1 l1 Fotovivo"
@@ -13,4 +13,4 @@
   .l1 { grid-area: l1; }
   .l2 { grid-area: l2; }
   .l3 { grid-area: l3; }
-  .Fotovivo { grid-area: Fotovivo; max-width: 80%;}
+  .Fotovivo {padding: 50px; margin-left: 100px; margin-bottom:  500px; ; grid-area: Fotovivo; max-width: 80%;}
