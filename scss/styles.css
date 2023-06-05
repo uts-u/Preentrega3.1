@@ -98,7 +98,7 @@ footer {
 
 .bioText {
   text-align: left;
-  padding-bottom: 199px;
+  padding-bottom: 200px;
 }
 
 * {
@@ -195,6 +195,10 @@ footer {
 }
 #Navegador a:hover {
   font-weight: bold;
+}
+
+img {
+  max-width: 100%;
 }
 
 .fechas {
