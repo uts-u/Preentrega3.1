@@ -14,11 +14,12 @@
   font-size: 30px;
   color: grey;
   text-align: center;
-  background-color: black;
+  background: #000000;
+  background: linear-gradient(180deg, black, #606060);
 }
 
 .fechas {
-  block-size: 700px;
+  block-size: 800px;
   display: grid;
   grid-template-columns: 0.8fr 0.8fr 1.6fr;
   grid-template-rows: 0.3fr 0.3fr 0.2fr 0.2fr 0.2fr 3.5fr;
@@ -80,6 +81,7 @@
 }
 
 .publicacionesDiv {
+  block-size: 800px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -92,9 +94,15 @@
 .Publicacion2 {
   grid-area: Publicacion2;
 }
+.Publicacion2 :hover {
+  transform: scale(1.1);
+}
 
 .Publicacion1 {
   grid-area: Publicacion1;
+}
+.Publicacion1 :hover {
+  transform: scale(1.1);
 }
 
 * {
