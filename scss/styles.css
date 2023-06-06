@@ -7,7 +7,7 @@
 
 .bioText {
   text-align: left;
-  padding-bottom: 169px;
+  padding-bottom: 168px;
 }
 
 .link {
@@ -17,9 +17,9 @@
   background: #000000;
   background: linear-gradient(180deg, black, #606060);
 }
-.link link img {
-  height: 50px;
-  width: 50px;
+
+.link img {
+  max-width: 18%;
 }
 
 .fechas {
@@ -101,7 +101,8 @@
   width: 350px;
   height: 350px;
   padding: 50px;
-  padding-bottom: 585px;
+  padding-bottom: 500px;
+  padding-top: 134px;
   margin-left: 350px;
   grid-area: Publicacion2;
 }
@@ -113,7 +114,8 @@
   width: 350px;
   height: 350px;
   padding: 50px;
-  padding-bottom: 585px;
+  padding-bottom: 500px;
+  padding-top: 134px;
   margin-left: 350px;
   grid-area: Publicacion1;
 }
@@ -156,27 +158,14 @@ img {
 
 h1 {
   font-weight: 700;
-  font-size: 70px;
-  color: #606060;
-  text-align: left;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  background-color: black;
-}
-
-h2 {
-  font-weight: 700;
   font-size: 55px;
   color: #606060;
-  text-align: right;
+  text-align: left;
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-right: 20px;
+  padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: grey;
 }
 
 h3 {
@@ -264,7 +253,7 @@ p {
   .Publicacion1 :hover {
     transform: scale(1.2);
   }
-  h2 {
+  h1 {
     font-weight: 700;
     font-size: 30px;
     color: #606060;

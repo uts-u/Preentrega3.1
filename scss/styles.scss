@@ -12,7 +12,7 @@ body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; 
 header {top: 0; z-index: 1;}
 footer {background-color: $color-Secundario; display: flex; justify-content: center; position: relative; bottom:0px; flex: 1 1 0}
 img {max-width: 100%;}
-h1 {font-weight: 700; font-size: 55px; color: $color-Secundario; text-align: left; margin-bottom:20px ; margin-top: 20px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
+h1 {font-weight: 700; font-size: 55px; color: $color-Secundario; text-align: left; margin-bottom:20px ; margin-top: 20px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px;}
 h3 {font-weight: 700; font-size: 40px; color: $color-Secundario; text-align: center; margin-bottom:0px ; margin-top: 0px; background-color: $color-Principal}
 p {font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
 #Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
