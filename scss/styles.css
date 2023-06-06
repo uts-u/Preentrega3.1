@@ -17,9 +17,9 @@
   background: #000000;
   background: linear-gradient(180deg, black, #606060);
 }
-
-.link img {
-  max-width: 18%;
+.link link img {
+  height: 50px;
+  width: 50px;
 }
 
 .fechas {

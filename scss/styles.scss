@@ -12,8 +12,7 @@ body {background-color: $color-Principal;font-family: 'Montserrat', sans-serif; 
 header {top: 0; z-index: 1;}
 footer {background-color: $color-Secundario; display: flex; justify-content: center; position: relative; bottom:0px; flex: 1 1 0}
 img {max-width: 100%;}
-h1 {font-weight: 700; font-size: 70px; color: $color-Secundario; text-align: left; margin-bottom:0px ; margin-top: 0px; padding-left: 20px; padding-bottom: 20px; background-color: $color-Principal;}
-h2 {font-weight: 700; font-size: 55px; color: $color-Secundario; text-align: right; margin-bottom:20px ; margin-top: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
+h1 {font-weight: 700; font-size: 55px; color: $color-Secundario; text-align: left; margin-bottom:20px ; margin-top: 20px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
 h3 {font-weight: 700; font-size: 40px; color: $color-Secundario; text-align: center; margin-bottom:0px ; margin-top: 0px; background-color: $color-Principal}
 p {font-size: 30px; color: $color-Terciario; text-align: center; background-color: $color-Principal}
 #Navegador {margin-top: 20px; margin-right: 20px; font-size: 30px; background-color: $color-Principal; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: right;
@@ -35,7 +34,7 @@ p {font-size: 30px; color: $color-Terciario; text-align: center; background-colo
             "Publicacion2";}
             .Publicacion2 {width: 250px; height: 250px; padding: 40px; margin-bottom: 67px; margin-left: 100px; grid-area: Publicacion2; :hover {transform: scale(1.2);}}
             .Publicacion1 {width: 250px; height: 250px; padding: 40px; margin-bottom: 30px; margin-left: 100px; grid-area: Publicacion1;:hover {transform: scale(1.2);}}
-        h2 {font-weight: 700; font-size: 30px; color: $color-Secundario; text-align: left; margin-bottom:20px ; padding-left: 10px; margin-top: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
+        h1 {font-weight: 700; font-size: 30px; color: $color-Secundario; text-align: left; margin-bottom:20px ; padding-left: 10px; margin-top: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; background-color: $color-Terciario}
     p {font-size: 18px; color: $color-Secundario; text-align: center; background-color: $color-Principal}
     h3 {font-weight: 700; font-size: 30px; color: $color-Secundario; text-align: center; margin-bottom:0px ; margin-top: 0px; background-color: $color-Principal}
 }
