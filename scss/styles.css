@@ -12,11 +12,14 @@
 
 .link {
   block-size: 635px;
-  font-size: 30px;
   color: grey;
   text-align: center;
   background: #000000;
   background: linear-gradient(180deg, black, #606060);
+}
+
+.link img {
+  max-width: 18%;
 }
 
 .fechas {
