@@ -1,3 +1,4 @@
+@import 'animate.css';
 .foto {
   background-color: black;
   display: flex;
@@ -141,6 +142,9 @@ footer {
   background-color: #606060;
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 0px;
+  flex: 1 1 0;
 }
 
 img {
@@ -209,16 +213,20 @@ p {
 }
 
 @media all and (max-width: 1100px) {
+  .bioText {
+    text-align: left;
+    padding-bottom: 107px;
+  }
   .Fotovivo {
     display: none;
     visibility: hidden;
   }
   .fechas {
     display: grid;
-    grid-template-columns: 0.8fr 0.8fr 1.6fr;
-    grid-template-rows: 0.3fr 0.3fr 0.2fr 0.2fr 0.2fr 3.5fr;
+    grid-template-columns: 0.8fr 0.8fr;
+    grid-template-rows: 0.2fr 0.2fr 0.1fr 0.1fr 0.1fr 5.5fr;
     grid-auto-columns: 1fr;
-    gap: 20px 20px;
+    gap: 30px 30px;
     grid-auto-flow: row;
     grid-template-areas: "Mes Mes" "Fecha Lugar" "f1 l1" "f2 l2" "f3 l3";
   }
@@ -232,22 +240,22 @@ p {
     grid-template-areas: "Publicacion1" "Publicacion2";
   }
   .Publicacion2 {
-    width: 350px;
-    height: 350px;
-    padding: 50px;
-    padding-bottom: 585px;
-    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+    margin-bottom: 67px;
+    margin-left: 100px;
     grid-area: Publicacion2;
   }
   .Publicacion2 :hover {
     transform: scale(1.2);
   }
   .Publicacion1 {
-    width: 350px;
-    height: 350px;
-    padding: 50px;
-    padding-bottom: 585px;
-    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-left: 100px;
     grid-area: Publicacion1;
   }
   .Publicacion1 :hover {
@@ -255,10 +263,11 @@ p {
   }
   h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: #606060;
-    text-align: right;
+    text-align: left;
     margin-bottom: 20px;
+    padding-left: 10px;
     margin-top: 20px;
     padding-right: 20px;
     padding-top: 10px;
