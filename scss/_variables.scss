@@ -1,3 +1,26 @@
 $color-Principal: black;
 $color-Secundario: #606060;
 $color-Terciario: grey;
+
+/* al intentar usar "@mixin" visual studio code me tira un error, estuve leyendo en foros y no pude encontrar ninguna solucion:
+ 
+Error - 1:28:53 PM] Request textDocument/documentSymbol failed.
+Error: name must not be falsy
+	at b.validate (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:26039)
+	at new b (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:26334)
+	at V (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:218165)
+	at c (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:256165)
+	at t.map (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:256251)
+	at Object.asDocumentSymbols (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:225983)
+	at i (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:164601)
+	at async t.provideDocumentSymbols (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:39308)
+[Error - 1:28:53 PM] Request textDocument/documentSymbol failed.
+Error: name must not be falsy
+	at b.validate (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:26039)
+	at new b (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:26334)
+	at V (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:218165)
+	at c (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:256165)
+	at t.map (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:256251)
+	at Object.asDocumentSymbols (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:225983)
+	at i (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:164601)
+	at async t.provideDocumentSymbols (/private/var/folders/wj/4s0znjyd0897h25t3rht33v40000gn/T/AppTranslocation/75A1C087-4A2B-4438-8CA3-4DB12DBCE4D9/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:39308)*/

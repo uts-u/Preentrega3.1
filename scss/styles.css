@@ -225,7 +225,7 @@ nav button {
     grid-template-columns: 0.8fr 0.8fr;
     grid-template-rows: 0.2fr 0.2fr 0.1fr 0.1fr 0.1fr 5.5fr;
     grid-auto-columns: 1fr;
-    gap: 30px 30px;
+    gap: 50px 50px;
     grid-auto-flow: row;
     grid-template-areas: "Mes Mes" "Fecha Lugar" "f1 l1" "f2 l2" "f3 l3";
   }
@@ -275,7 +275,7 @@ nav button {
   }
   p {
     font-size: 18px;
-    color: #606060;
+    color: grey;
     text-align: center;
     background-color: black;
   }
